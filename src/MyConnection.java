@@ -143,7 +143,6 @@ public class MyConnection {
     public static void main(String[] args) {
 
         MyConnection connection = new MyConnection();
-        /*
         System.out.println("*************************");
         connection.CalisanlariGetir();
         System.out.println("*************************");
@@ -154,8 +153,6 @@ public class MyConnection {
         connection.CalisanSil();
         connection.CalisanlariGetir();
         connection.preparedCalisanlariGetir(3);
-         */
-
         connection.commitandrollback();
     }
 }
